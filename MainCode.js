@@ -38,10 +38,10 @@ function preload() {
     blueBird = loadImage("images/blueBird.png");
     pinkBird = loadImage("images/pinkBird.png");
 
-    jumpSound = loadSound("jump.mp3");
-    deathSound = loadSound("death.mp3");
-    typeSound = loadSound("type.mp3");
-    slashSound = loadSound("slash.mp3");
+    jumpSound = loadSound("sounds/jump.mp3");
+    deathSound = loadSound("sounds/death.mp3");
+    typeSound = loadSound("sounds/type.mp3");
+    slashSound = loadSound("sounds/slash.mp3");
 } //preload
 
 function setup() {
